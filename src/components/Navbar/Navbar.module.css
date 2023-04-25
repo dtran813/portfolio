@@ -1,0 +1,18 @@
+.navbar {
+  margin-right: 5rem;
+}
+
+.menu {
+  display: flex;
+  column-gap: var(--items-gap);
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.menu a {
+  display: inline-block;
+
+  color: #213547;
+  font-size: calc(20rem / 16);
+  text-decoration: none;
+}
