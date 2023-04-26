@@ -1,15 +1,18 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import React from 'react';
+import { Hero } from './components';
 import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import About from './components/About/About';
 
 function App() {
+  const mainRef = React.useRef(null);
+
   return (
     <>
       <Header />
-      <Main />
+
+      <main ref={mainRef} className="mainWrapper">
+        <About />
+      </main>
     </>
   );
 }

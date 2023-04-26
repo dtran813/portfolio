@@ -10,6 +10,7 @@
 
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -20,9 +21,12 @@ body {
 body {
   --items-gap: 6rem;
   --header-height: 4rem;
+  --text-color: hsl(180, 24%, 96%);
 
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: #050816;
+  color: var(--text-color);
 }
 
 img,
@@ -54,6 +58,14 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.mainWrapper {
+  height: calc(100vh - var(--header-height));
+}
+
+.wrapper {
+  padding: 0 4rem;
 }
 
 @media (prefers-color-scheme: light) {

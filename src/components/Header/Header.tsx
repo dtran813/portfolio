@@ -1,14 +1,14 @@
-import React from 'react';
 import styles from './Header.module.css';
 import Navbar from '../Navbar/Navbar';
+import { motion } from 'framer-motion';
+import { Hero } from '..';
 
 export default function Header() {
   return (
-    <header className={styles.headerWrapper}>
-      <div className={styles.logoWrapper}>
-        <a href="">LOGO</a>
-      </div>
+    <motion.header className={styles.headerWrapper}>
       <Navbar />
-    </header>
+
+      <Hero />
+    </motion.header>
   );
 }

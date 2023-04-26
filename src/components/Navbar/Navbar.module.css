@@ -1,5 +1,9 @@
 .navbar {
-  margin-right: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
 }
 
 .menu {
@@ -11,8 +15,7 @@
 
 .menu a {
   display: inline-block;
-
-  color: #213547;
+  color: var(--text-color);
   font-size: calc(20rem / 16);
   text-decoration: none;
 }
