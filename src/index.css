@@ -21,12 +21,17 @@ body {
 body {
   --items-gap: 6rem;
   --header-height: 4rem;
-  --text-color: hsl(180, 24%, 96%);
+  --text-primary: hsl(180, 24%, 96%);
+  --text-secondary: hsl(248, 19%, 71%);
+
+  --bg-primary: #050816;
+  --bg-secondary: #aaa6c3;
+  --bg-tertiary: #151030;
 
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: #050816;
-  color: var(--text-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 img,
@@ -66,6 +71,20 @@ h6 {
 
 .wrapper {
   padding: 0 4rem;
+}
+
+.sectionHeadText {
+  color: var(--text-primary);
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.05ch;
+}
+
+.sectionSubText {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1ch;
 }
 
 @media (prefers-color-scheme: light) {

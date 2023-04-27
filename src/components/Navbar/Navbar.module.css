@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 4rem;
 }
 
 .menu {
@@ -15,7 +14,7 @@
 
 .menu a {
   display: inline-block;
-  color: var(--text-color);
+  color: var(--text-primary);
   font-size: calc(20rem / 16);
   text-decoration: none;
 }
