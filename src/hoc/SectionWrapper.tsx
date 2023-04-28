@@ -4,8 +4,8 @@ import { staggerContainer } from '../utils/motion';
 
 const style = {
   margin: '0 auto',
+  marginTop: '1px', // to enable initial="hidden" on section
   maxWidth: '80rem', // 1280px
-  height: '100vh',
   padding: '1.5rem 2.5rem',
 };
 

@@ -1,4 +1,8 @@
 import {
+  frontend,
+  backend,
+  camera,
+  gym,
   html,
   css,
   javascript,
@@ -9,6 +13,8 @@ import {
   mongodb,
   git,
   figma,
+  visa,
+  nomanit,
 } from '../../assets';
 
 export const name = 'DUC TRAN';
@@ -74,39 +80,39 @@ export const technologies = [
 export const interests = [
   {
     interest: 'Front-end Development',
-    imgSrc: '/src/assets/frontend.jpg',
+    imgSrc: frontend,
   },
   {
     interest: 'Back-end Development',
-    imgSrc: '/src/assets/backend.jpg',
+    imgSrc: backend,
   },
   {
     interest: 'Novice Photographer',
-    imgSrc: '/src/assets/camera.jpg',
+    imgSrc: camera,
   },
   {
     interest: 'Bodybuilder',
-    imgSrc: '/src/assets/weight.jpg',
+    imgSrc: gym,
   },
 ];
 
 export const experiences = [
   {
-    position: 'Software Test Engineer',
+    position: 'Software Test Engineer Intern',
     companyName: 'Visa Inc.',
-    icon: '',
-    date: 'February 2023 - Present',
+    icon: visa,
+    date: 'May 2022 - August 2022',
     points: [
-      'Planned and devised cohesive test plans for projects using advanced testing technologies.',
-      'Wrote and optimized test cases to maximize the success of manual software testing with consistent, thorough approaches.',
-      'Practice testing methodologies, software development life cycle (SDLC), and Agile development methodologies',
-      'Collaborate with software developers and quality assurance team members to ensure effective communication and problem resolution.',
+      'Worked on the Linux servers to modify testing scripts and moderate the gateway application for the testing process.',
+      'Expanded the testing framework by implementing new unit tests for individual protocol validation using Python with its unittest library.',
+      "Enhanced the existing test scripts to support the application's new protocol and ensure the framework's compatibility with the servers.",
+      'Acquire comprehensive knowledge and experience in fin-tech software, testing, and related technologies.',
     ],
   },
   {
     position: 'Software Engineer',
     companyName: 'NomanIT',
-    icon: '',
+    icon: nomanit,
     date: 'November 2021 - December 2022',
     points: [
       'Developed user interfaces with modern HTML5, CSS3, and JavaScript frameworks, Angular.',
@@ -117,15 +123,15 @@ export const experiences = [
     ],
   },
   {
-    position: 'Software Test Engineer Intern',
+    position: 'Software Test Engineer',
     companyName: 'Visa Inc.',
-    icon: '',
-    date: 'May 2022 - August 2022',
+    icon: visa,
+    date: 'February 2023 - Present',
     points: [
-      'Worked on the Linux servers to modify testing scripts and moderate the gateway application for the testing process.',
-      'Expanded the testing framework by implementing new unit tests for individual protocol validation using Python with its unittest library.',
-      "Enhanced the existing test scripts to support the application's new protocol and ensure the framework's compatibility with the servers.",
-      'Acquire comprehensive knowledge and experience in fin-tech software, testing, and related technologies.',
+      'Planned and devised cohesive test plans for projects using advanced testing technologies.',
+      'Wrote and optimized test cases to maximize the success of manual software testing with consistent, thorough approaches.',
+      'Practice testing methodologies, software development life cycle (SDLC), and Agile development methodologies',
+      'Collaborate with software developers and quality assurance team members to ensure effective communication and problem resolution.',
     ],
   },
 ];

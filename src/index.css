@@ -23,11 +23,11 @@ body {
   --items-gap: 6rem;
   --padding: 5rem;
   --text-primary: hsl(180, 25%, 100%);
-  --text-secondary: hsl(250, 20%, 70%);
+  --text-secondary: hsl(200, 25%, 70%);
 
   --bg-primary: hsl(220 60% 5%);
-  --bg-secondary: hsl(248, 20%, 70%);
-  --bg-tertiary: hsl(250, 50%, 15%);
+  --bg-secondary: hsl(250, 50%, 15%);
+  --bg-tertiary: hsl(248, 20%, 70%);
 
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
