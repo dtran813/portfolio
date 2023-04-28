@@ -2,20 +2,42 @@
   margin-top: 1.5rem;
   color: var(--text-secondary);
   font-size: calc(18rem / 16);
-  max-width: 45rem;
+  max-width: 700px;
   letter-spacing: 1px;
 }
 
-.serviceWrapper {
-  margin-top: 5rem;
+.cardWrapper {
+  padding: 5rem 0;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
-.serviceCard {
+.tilt {
+  width: 100%;
+  flex-basis: 250px;
+}
+
+.cardShadow {
+  width: 100%;
+  padding: 1px;
+  border-radius: 20px;
   background-color: var(--bg-tertiary);
-  width: calc(230rem / 16);
-  height: calc(320rem / 16);
-  border-radius: 12px;
+  box-shadow: 8px 8px 50px -10px hsl(248 30% 20%);
+}
+
+.cardContent {
+  padding: 1rem 1.25rem;
+  min-height: calc(280rem / 16);
+  background-color: var(--bg-tertiary);
+  display: grid;
+  place-content: center;
+  border-radius: 20px;
+}
+
+.interestText {
+  font-size: calc(20rem / 16);
+  font-weight: bold;
+  text-align: center;
 }

@@ -13,16 +13,13 @@ const SectionWrapper = (Component: React.ElementType, idName: string) =>
   function HOC() {
     return (
       <motion.section
+        id={idName}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={staggerContainer()}
         style={style}
       >
-        <span className="hash-span" id={idName}>
-          &nbsp;
-        </span>
-
         <Component />
       </motion.section>
     );

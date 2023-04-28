@@ -28,7 +28,7 @@ export const navLinks = [
   },
 ];
 
-const technologies = [
+export const technologies = [
   {
     name: 'HTML5',
     icon: html,
@@ -71,22 +71,22 @@ const technologies = [
   },
 ];
 
-export const services = [
+export const interests = [
   {
-    title: 'Front-end Development',
-    background: '/src/assets/frontend.jpg',
+    interest: 'Front-end Development',
+    imgSrc: '/src/assets/frontend.jpg',
   },
   {
-    title: 'Back-end Development',
-    background: '/src/assets/backend.jpg',
+    interest: 'Back-end Development',
+    imgSrc: '/src/assets/backend.jpg',
   },
   {
-    title: 'Novice Photographer',
-    background: '/src/assets/camera.jpg',
+    interest: 'Novice Photographer',
+    imgSrc: '/src/assets/camera.jpg',
   },
   {
-    title: 'Bodybuilder',
-    background: '/src/assets/weight.jpg',
+    interest: 'Bodybuilder',
+    imgSrc: '/src/assets/weight.jpg',
   },
 ];
 

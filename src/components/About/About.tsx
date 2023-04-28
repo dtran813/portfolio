@@ -4,30 +4,35 @@ import { motion } from 'framer-motion';
 
 import { SectionWrapper } from '../../hoc';
 import { fadeIn, textVariant } from '../../utils/motion';
-import { services } from '../constants';
+import { interests } from '../constants';
 
-interface ServiceCardProps {
+interface CardProps {
   index: number;
-  title: string;
-  background: string;
+  interest: string;
+  imgSrc: string;
 }
 
-function ServiceCard({ index, title, background }: ServiceCardProps) {
+function Card({ index, interest, imgSrc }: CardProps) {
   return (
-    <Tilt className="Tilt" transitionSpeed={500}>
+    <Tilt
+      className={styles.tilt}
+      tiltMaxAngleX={15}
+      tiltMaxAngleY={15}
+      transitionSpeed={500}
+    >
       <motion.div
         variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-        className={styles.serviceCard}
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          // filter: 'blur(1px)',
-          filter: 'contrast(120%)',
-        }}
+        className={`${styles.cardShadow} green-pink-gradient`}
       >
-        <div className="">
-          <h3 className="">{title}</h3>
+        <div
+          className={styles.cardContent}
+          style={{
+            backgroundImage: `url(${imgSrc})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+          }}
+        >
+          <h3 className={styles.interestText}>{interest}</h3>
         </div>
       </motion.div>
     </Tilt>
@@ -52,9 +57,9 @@ function About() {
         I enjoy staying active and healthy by hitting the gym regularly.
       </motion.p>
 
-      <div className={styles.serviceWrapper}>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+      <div className={styles.cardWrapper}>
+        {interests.map((item, index) => (
+          <Card key={item.interest} index={index} {...item} />
         ))}
       </div>
     </>
