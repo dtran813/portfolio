@@ -1,8 +1,12 @@
 import React from 'react';
-import { Hero } from './components';
-import Header from './components/Header/Header';
-import About from './components/About/About';
-import Experience from './components/Experience/Experience';
+import {
+  About,
+  Experience,
+  Header,
+  Project,
+  Technology,
+  Contact,
+} from './components';
 
 function App() {
   const mainRef = React.useRef(null);
@@ -14,6 +18,9 @@ function App() {
       <main ref={mainRef} className="mainWrapper">
         <About />
         <Experience />
+        <Project />
+        <Technology />
+        <Contact />
       </main>
     </>
   );

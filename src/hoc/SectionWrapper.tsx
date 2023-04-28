@@ -1,10 +1,10 @@
-// import React from 'react';
 import { motion } from 'framer-motion';
 import { staggerContainer } from '../utils/motion';
 
 const style = {
+  minHeight: '100vh',
   margin: '0 auto',
-  marginTop: '1px', // to enable initial="hidden" on section
+  marginTop: '1px', // to enable  initial="hidden" on section
   maxWidth: '80rem', // 1280px
   padding: '1.5rem 2.5rem',
 };

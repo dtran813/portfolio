@@ -1,8 +1,7 @@
 import styles from './Header.module.css';
 import { motion } from 'framer-motion';
 
-import Navbar from '../Navbar/Navbar';
-import Hero from '../Hero/Hero';
+import { Navbar, Hero } from '../index';
 
 export default function Header() {
   return (

@@ -6,7 +6,7 @@ import { SectionWrapper } from '../../hoc';
 import { fadeIn, textVariant } from '../../utils/motion';
 import { interests } from '../constants';
 
-function About() {
+function AboutSection() {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -33,4 +33,6 @@ function About() {
   );
 }
 
-export default SectionWrapper(About, 'about');
+const About = SectionWrapper(AboutSection, 'about');
+
+export default About;

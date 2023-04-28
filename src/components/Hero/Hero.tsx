@@ -1,6 +1,6 @@
 import styles from './Hero.module.css';
 import { name } from '../constants';
-import SplitText from '../SplitText/SplitText';
+import { SplitText } from '../index';
 
 export default function Hero() {
   return (

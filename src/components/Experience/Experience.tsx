@@ -7,7 +7,7 @@ import { experiences } from '../constants';
 import { textVariant } from '../../utils/motion';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 
-function Experience() {
+function ExperienceSection() {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -32,4 +32,6 @@ function Experience() {
   );
 }
 
-export default SectionWrapper(Experience, 'experience');
+const Experience = SectionWrapper(ExperienceSection, 'experience');
+
+export default Experience;
