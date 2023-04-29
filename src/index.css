@@ -25,8 +25,8 @@ body {
   --text-primary: hsl(180, 25%, 100%);
   --text-secondary: hsl(200, 25%, 70%);
 
-  --bg-primary: hsl(220 60% 5%);
-  --bg-secondary: hsl(250, 50%, 15%);
+  --bg-primary: hsl(220, 60%, 5%);
+  --bg-secondary: hsl(251, 50%, 15%);
   --bg-tertiary: hsl(248, 20%, 70%);
 
   line-height: 1.5;

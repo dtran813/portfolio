@@ -18,8 +18,8 @@ function App() {
       <main ref={mainRef} className="mainWrapper">
         <About />
         <Experience />
-        <Project />
         <Technology />
+        <Project />
         <Contact />
       </main>
     </>
