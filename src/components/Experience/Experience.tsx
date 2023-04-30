@@ -18,7 +18,6 @@ function ExperienceSection() {
       <div className={styles.timelineWrapper}>
         <VerticalTimeline>
           {experiences.map((experience, index) => {
-            console.log(experience.icon);
             return (
               <ExperienceCard
                 key={`experience-${index}`}

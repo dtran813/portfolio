@@ -21,6 +21,7 @@ import {
   pig_game,
   csharp,
   python,
+  java,
 } from '../../assets';
 
 export const name = 'DUC TRAN';
@@ -79,7 +80,7 @@ export const technologies = [
   },
   {
     name: 'Java',
-    icon: mongodb,
+    icon: java,
   },
   {
     name: 'CSharp',

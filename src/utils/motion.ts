@@ -42,25 +42,6 @@ export const fadeIn = (
   };
 };
 
-export const zoomIn = (delay = 0, duration = 0.3) => {
-  return {
-    hidden: {
-      scale: 0,
-      opacity: 0,
-    },
-    visible: {
-      scale: 1,
-      opacity: 1,
-      transition: {
-        type: 'tween',
-        delay: delay,
-        duration: duration,
-        ease: 'easeOut',
-      },
-    },
-  };
-};
-
 export const slideIn = (
   direction: string,
   type: string,
