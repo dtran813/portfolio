@@ -15,6 +15,12 @@ import {
   figma,
   visa,
   nomanit,
+  wms,
+  oh2k,
+  calculator,
+  pig_game,
+  csharp,
+  python,
 } from '../../assets';
 
 export const name = 'DUC TRAN';
@@ -66,6 +72,18 @@ export const technologies = [
   {
     name: 'MongoDB',
     icon: mongodb,
+  },
+  {
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'Java',
+    icon: mongodb,
+  },
+  {
+    name: 'CSharp',
+    icon: csharp,
   },
   {
     name: 'Git',
@@ -133,5 +151,91 @@ export const experiences = [
       'Practice testing methodologies, software development life cycle (SDLC), and Agile development methodologies',
       'Collaborate with software developers and quality assurance team members to ensure effective communication and problem resolution.',
     ],
+  },
+];
+
+export const projects = [
+  {
+    name: 'Walden Medical Staffing',
+    description:
+      'A real-world web application that supports the business operation of Walden Medical Staffing.',
+    tags: [
+      {
+        name: 'ASP.NET Core',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'MySql',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Bootstrap',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: wms,
+    liveLink: 'https://www.waldenmedstaffing.com/',
+  },
+  {
+    name: 'OH2K Bank',
+    description:
+      'A landing website helps provide essential information about an imaginary bank.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TailwindCSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Vite',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: oh2k,
+    liveLink: 'https://oh2kbank.netlify.app/',
+  },
+  {
+    name: 'CalcuNow',
+    description: 'Why Calculator when you can CalcuNow?',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'JavaScript',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: calculator,
+    liveLink: 'https://calcunow.netlify.app/',
+  },
+  {
+    name: 'Pig Game',
+    description:
+      "Pig Game has two players, so to make it fair, let's give them two dice instead.",
+    tags: [
+      {
+        name: 'HTML',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'JavaScript',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: pig_game,
+    liveLink: 'https://pig2.netlify.app/',
   },
 ];

@@ -12,7 +12,7 @@ interface Experience {
   companyName: string;
   icon: string;
   date: string;
-  points: Array<string>;
+  points: string[];
 }
 
 const contentStyle = {

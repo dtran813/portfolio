@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <nav className={styles.navbar}>
         <div className={styles.logoWrapper}>
-          <a href="">LOGO</a>
+          <a href="#">Duc H Tran</a>
         </div>
         <ul className={styles.menu}>
           {navLinks.map(({ id, title }) => (

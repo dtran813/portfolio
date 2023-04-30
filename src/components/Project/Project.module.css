@@ -1,0 +1,44 @@
+.tilt {
+  background-color: var(--bg-secondary);
+  flex-basis: 500px;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.wrapper {
+  height: 100%;
+  display: grid;
+  /* flex-direction: column; */
+}
+
+.imgWrapper {
+  display: block;
+  width: 100%;
+  height: 230px;
+  margin-bottom: 1.25rem;
+}
+
+.projectImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.projectName {
+  color: var(--text-primary);
+  font-size: calc(24rem / 16);
+  margin-bottom: 0.5rem;
+}
+
+.projectDesc {
+  color: var(--text-secondary);
+  font-size: calc(14rem / 16);
+}
+
+.tagWrapper {
+  align-self: flex-end;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}

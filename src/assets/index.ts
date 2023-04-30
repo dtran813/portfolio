@@ -13,9 +13,17 @@ import figma from './tech/figma.png';
 import git from './tech/git.png';
 import mongodb from './tech/mongodb.png';
 import tailwind from './tech/tailwind.png';
+import python from './tech/python.png';
+import csharp from './tech/csharp.png';
+import java from './tech/java.png';
 
 import visa from './visa.png';
 import nomanit from './nomanit.png';
+
+import pig_game from './project/pig_game.png';
+import wms from './project/wms.png';
+import oh2k from './project/oh2k.png';
+import calculator from './project/calculator.png';
 
 export {
   frontend,
@@ -32,6 +40,13 @@ export {
   git,
   mongodb,
   tailwind,
+  python,
+  csharp,
+  java,
   visa,
   nomanit,
+  pig_game,
+  wms,
+  oh2k,
+  calculator,
 };
