@@ -34,7 +34,46 @@
 
 .pointText {
   margin-bottom: 0.5rem;
-  font-size: calc(14rem / 16);
   padding-left: 0.25rem;
+  font-size: calc(14rem / 16);
   letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  .positionText {
+    font-size: calc(20rem / 16);
+  }
+
+  .companyNameText {
+    font-size: calc(14rem / 16);
+  }
+
+  .pointWrapper {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .pointText {
+    margin-bottom: 0.25rem;
+    padding-left: 0;
+    font-size: calc(12rem / 16);
+  }
+}
+
+@media (max-width: 480px) {
+  .positionText {
+    font-size: calc(14rem / 16);
+  }
+
+  .companyNameText {
+    font-size: calc(12rem / 16);
+  }
+
+  .pointWrapper {
+    margin-top: 0.75rem;
+  }
+
+  .pointText {
+    font-size: calc(11rem / 16);
+  }
 }
