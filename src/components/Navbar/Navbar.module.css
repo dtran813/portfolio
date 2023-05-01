@@ -48,7 +48,7 @@
   width: 28px;
 }
 
-@media (max-width: 47.5rem) {
+@media (max-width: 768px) {
   .menu {
     display: none;
   }

@@ -161,3 +161,14 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 768px) {
+  .sectionHeadText {
+    font-size: calc(2rem + 0.5vw);
+    letter-spacing: 0.03ch;
+  }
+
+  .sectionSubText {
+    font-size: 0.75rem;
+  }
+}
