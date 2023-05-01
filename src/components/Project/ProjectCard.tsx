@@ -41,15 +41,17 @@ export default function ProjectCard({
           <img src={image} className={styles.projectImg} />
         </a>
 
-        <h3 className={styles.projectName}>{name}</h3>
-        <p className={styles.projectDesc}>{description}</p>
+        <div className={styles.projectInfo}>
+          <h3 className={styles.projectName}>{name}</h3>
+          <p className={styles.projectDesc}>{description}</p>
 
-        <div className={styles.tagWrapper}>
-          {tags.map(tag => (
-            <p key={`${name}-${tag.name}`} className={tag.color}>
-              #{tag.name}
-            </p>
-          ))}
+          <div className={styles.tagWrapper}>
+            {tags.map(tag => (
+              <p key={`${name}-${tag.name}`} className={tag.color}>
+                #{tag.name}
+              </p>
+            ))}
+          </div>
         </div>
       </motion.div>
     </Tilt>
