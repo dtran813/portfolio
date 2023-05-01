@@ -1,6 +1,6 @@
 .tilt {
   width: 100%;
-  flex-basis: 250px;
+  max-width: 250px;
 }
 
 .cardShadow {
@@ -24,4 +24,32 @@
   font-size: calc(20rem / 16);
   font-weight: bold;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .tilt {
+    max-width: 200px;
+  }
+
+  .cardContent {
+    min-height: calc(230rem / 16);
+  }
+
+  .interestText {
+    font-size: calc(18rem / 16);
+  }
+}
+
+@media (max-width: 480px) {
+  .tilt {
+    max-width: 140px;
+  }
+
+  .cardContent {
+    min-height: calc(170rem / 16);
+  }
+
+  .interestText {
+    font-size: calc(16rem / 16);
+  }
 }
