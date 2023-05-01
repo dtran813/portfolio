@@ -25,6 +25,11 @@ import wms from './project/wms.png';
 import oh2k from './project/oh2k.png';
 import calculator from './project/calculator.png';
 
+import facebook from './social_media/facebook.svg';
+import github from './social_media/github.svg';
+import linkedin from './social_media/linkedin.svg';
+import twitter from './social_media/twitter.svg';
+
 export {
   frontend,
   backend,
@@ -49,4 +54,8 @@ export {
   wms,
   oh2k,
   calculator,
+  facebook,
+  github,
+  linkedin,
+  twitter,
 };

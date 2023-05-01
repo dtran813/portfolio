@@ -22,6 +22,10 @@ import {
   csharp,
   python,
   java,
+  facebook,
+  twitter,
+  github,
+  linkedin,
 } from '../../assets';
 
 export const name = 'DUC TRAN';
@@ -238,5 +242,28 @@ export const projects = [
     ],
     image: pig_game,
     liveLink: 'https://pig2.netlify.app/',
+  },
+];
+
+export const social_media = [
+  {
+    name: 'LinkedIn',
+    logo: linkedin,
+    url: 'https://www.linkedin.com/in/duc-tran-6a141a1b4/',
+  },
+  {
+    name: 'Twitter',
+    logo: twitter,
+    url: 'https://twitter.com',
+  },
+  {
+    name: 'GitHub',
+    logo: github,
+    url: 'https://github.com/dtran813',
+  },
+  {
+    name: 'Facebook',
+    logo: facebook,
+    url: 'https://facebook.com',
   },
 ];

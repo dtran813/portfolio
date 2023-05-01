@@ -1,6 +1,7 @@
 import About from './About/About';
 import Contact from './Contact/Contact';
 import Experience from './Experience/Experience';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Hero from './Hero/Hero';
 import Navbar from './Navbar/Navbar';
@@ -12,6 +13,7 @@ export {
   About,
   Contact,
   Experience,
+  Footer,
   Header,
   Hero,
   Navbar,
