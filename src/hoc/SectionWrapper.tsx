@@ -6,7 +6,6 @@ const style = {
   margin: '0 auto',
   marginTop: '1px', // to enable  initial="hidden" on section
   maxWidth: '80rem', // 1280px
-  padding: '1.5rem 2.5rem',
 };
 
 const SectionWrapper = (Component: React.ElementType, idName: string) =>
@@ -18,6 +17,7 @@ const SectionWrapper = (Component: React.ElementType, idName: string) =>
         whileInView="visible"
         viewport={{ once: true }}
         variants={staggerContainer()}
+        className="sectionWrapperPadding"
         style={style}
       >
         <Component />

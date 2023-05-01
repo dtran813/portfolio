@@ -100,6 +100,10 @@ h6 {
   gap: 2rem;
 }
 
+.sectionWrapperPadding {
+  padding: 1.5rem 2.5rem;
+}
+
 .green-pink-gradient {
   background: hsl(170, 100%, 40%);
   background: linear-gradient(
@@ -170,5 +174,13 @@ h6 {
 
   .sectionSubText {
     font-size: 0.75rem;
+  }
+
+  .overview {
+    font-size: calc(14rem / 16);
+  }
+
+  .sectionWrapperPadding {
+    padding: 1.5rem 1.25rem;
   }
 }
