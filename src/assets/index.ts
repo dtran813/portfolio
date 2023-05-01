@@ -30,6 +30,9 @@ import github from './social_media/github.svg';
 import linkedin from './social_media/linkedin.svg';
 import twitter from './social_media/twitter.svg';
 
+import menu from './menu.svg';
+import x from './x.svg';
+
 export {
   frontend,
   backend,
@@ -58,4 +61,6 @@ export {
   github,
   linkedin,
   twitter,
+  menu,
+  x,
 };

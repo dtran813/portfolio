@@ -11,10 +11,73 @@
   list-style-type: none;
 }
 
-.menu a {
+.navLink {
   display: inline-block;
   color: var(--text-primary);
   font-size: calc(20rem / 16);
   font-weight: 500;
   text-decoration: none;
+}
+
+.mobileNavWrapper {
+  display: none;
+}
+
+.mobileMenu {
+  padding: 1rem 1.5rem 1rem 0.75rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  list-style-type: none;
+
+  pointer-events: none;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menuBtn img {
+  height: 28px;
+  width: 28px;
+}
+
+@media (max-width: 47.5rem) {
+  .menu {
+    display: none;
+  }
+
+  .mobileNavWrapper {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .mobileMenu {
+    background: var(--bg-tertiary); /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      105deg,
+      var(--bg-tertiary),
+      var(--bg-secondary)
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      105deg,
+      var(--bg-tertiary),
+      var(--bg-secondary)
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .menuBtn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
 }

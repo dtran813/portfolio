@@ -8,7 +8,7 @@ export default function Footer() {
         <p className={styles.footerName}>Duc H. Tran</p>
         <div className={styles.media}>
           {social_media.map(media => (
-            <a href={media.url}>
+            <a key={media.name} href={media.url}>
               <img src={media.logo} alt={`${media.name} Logo`} />
             </a>
           ))}
