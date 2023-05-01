@@ -89,6 +89,7 @@ function ContactSection() {
               className={styles.inputText}
             />
           </div>
+
           <div className={styles.formGroup}>
             <label htmlFor="email" className={styles.label}>
               Your Email
