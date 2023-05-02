@@ -22,9 +22,7 @@ export default function Navbar() {
       <nav className={styles.navbar}>
         <div className={styles.logoWrapper}>
           <a href="#" className={styles.logo}>
-            <span>Duc</span>
-            <span className={styles.letterH}> H </span>
-            <span>Tran</span>
+            Duc H Tran
           </a>
         </div>
 
@@ -44,7 +42,10 @@ export default function Navbar() {
             className={styles.menuBtn}
             onClick={handleClick}
           >
-            <img src={toggle ? x : menu} />
+            <img
+              src={toggle ? x : menu}
+              alt={`${toggle ? 'Close' : 'Open'} menu`}
+            />
           </button>
 
           <ul
