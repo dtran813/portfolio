@@ -28,8 +28,6 @@ import {
   linkedin,
 } from '../../assets';
 
-export const name = 'DUC TRAN';
-
 export const navLinks = [
   {
     id: 'home',

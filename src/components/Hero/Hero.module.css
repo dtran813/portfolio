@@ -1,59 +1,58 @@
 .heroWrapper {
-  padding: 0 4rem;
   height: 100%;
-  display: grid;
-  place-content: center;
-  /* background-image: url(/src/assets/herobg.png); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .name {
   font-size: 3rem;
-  font-size: clamp(3rem, 2.2rem + 4vw, 7rem);
-  /* font-size: clamp(3rem, 0.5rem + 9vw, 11rem); */
-  /* text-transform: uppercase; */
-  letter-spacing: 0.05ch;
+  font-size: clamp(3rem, 2.2rem + 3.5vw, 6rem);
+  letter-spacing: 0.075ch;
+  font-weight: 900;
 }
 
-.img {
-  aspect-ratio: 1037 / 693;
-}
-
-h1 span span {
+.mdText {
   color: var(--text-primary);
-  position: relative;
-  bottom: -1em;
-  opacity: 0;
-  animation: move-text 0.75s forwards;
+  font-size: calc(24rem / 16);
+  letter-spacing: 1px;
 }
 
-/* h1 span span:nth-child(2n) {
-  color: lightseagreen;
+.lgText {
+  margin-top: 1rem;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1rem + 2vw, 4rem);
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
-h1 span span:nth-child(3n) {
-  color: orange;
+
+.btn {
+  background-color: transparent;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-top: 3rem;
+  padding: 1.25rem 1.75rem;
+  width: fit-content;
+  border-radius: 2px;
+  border: 1px solid var(--text-secondary);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
 }
-h1 span span:nth-child(4n) {
-  color: dodgerblue;
+
+.btn:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 1rem 2rem hsla(0, 0%, 100%, 0.1);
+  box-shadow: 0 1rem 2rem hsla(0, 0%, 100%, 0.1);
 }
-h1 span span:nth-child(5n) {
-  color: blueviolet;
-} */
 
-@keyframes move-text {
-  0% {
-    bottom: -0.2em;
-    opacity: 1;
-  }
-
-  50% {
-    bottom: 0.2em;
-  }
-
-  100% {
-    bottom: 0;
-    opacity: 1;
-  }
+.btn:active,
+.btn:focus {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -webkit-box-shadow: 0 0.5rem 1rem hsla(0, 0%, 100%, 0.1);
+  box-shadow: 0 0.5rem 1rem hsla(0, 0%, 100%, 0.1);
 }

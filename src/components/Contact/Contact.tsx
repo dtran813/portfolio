@@ -67,7 +67,7 @@ function ContactSection() {
   return (
     <>
       <motion.div
-        variants={slideIn('left', 'tween', 0.1, 1)}
+        variants={slideIn('left', 'tween', 0.1, 0.75)}
         className={styles.wrapper}
       >
         <p className="sectionSubText">-Get In Touch-</p>

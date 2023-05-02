@@ -1,9 +1,5 @@
 .background {
-  /* background: url('/src/assets/herobg.png') center/cover no-repeat; */
-  /* background-image: url('/src/assets/bg.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
+  background: url('/src/assets/herobg.png') center/cover no-repeat;
 }
 
 .headerWrapper {
@@ -11,9 +7,6 @@
   padding: 1.5rem 2.5rem;
   max-width: 80rem; /* 1280 */
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 @media (max-width: 768px) {

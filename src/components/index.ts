@@ -7,7 +7,6 @@ import Hero from './Hero/Hero';
 import Navbar from './Navbar/Navbar';
 import Project from './Project/Project';
 import Technology from './Technology/Technology';
-import SplitText from './SplitText/SplitText';
 
 export {
   About,
@@ -19,5 +18,4 @@ export {
   Navbar,
   Project,
   Technology,
-  SplitText,
 };
