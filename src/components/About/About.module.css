@@ -21,6 +21,7 @@
 }
 
 .interestText {
+  color: hsl(0, 0%, 100%);
   font-size: calc(20rem / 16);
   font-weight: bold;
   text-align: center;
