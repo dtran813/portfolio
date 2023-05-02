@@ -21,7 +21,11 @@ export default function Navbar() {
     <>
       <nav className={styles.navbar}>
         <div className={styles.logoWrapper}>
-          <a href="#">Duc H Tran</a>
+          <a href="#" className={styles.logo}>
+            <span>Duc</span>
+            <span className={styles.letterH}> H </span>
+            <span>Tran</span>
+          </a>
         </div>
 
         <ul className={styles.menu}>

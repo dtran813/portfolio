@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.logo {
+  color: var(--text-primary);
+  font-size: calc(32rem / 16);
+  font-family: 'Comic Neue', cursive;
+  text-decoration: none;
+}
+
 .menu {
   display: flex;
   column-gap: 7rem;
@@ -79,5 +86,11 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: calc(24rem / 16);
   }
 }
