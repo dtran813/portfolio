@@ -38,7 +38,11 @@ export default function ProjectCard({
         className={styles.wrapper}
       >
         <a href={liveLink} target="_blank" className={styles.imgWrapper}>
-          <img src={image} className={styles.projectImg} />
+          <img
+            src={image}
+            alt={`A homepage photo of ${name} website`}
+            className={styles.projectImg}
+          />
         </a>
 
         <div className={styles.projectInfo}>
