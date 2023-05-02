@@ -37,7 +37,12 @@ export default function ProjectCard({
         variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
         className={styles.wrapper}
       >
-        <a href={liveLink} target="_blank" className={styles.imgWrapper}>
+        <a
+          href={liveLink}
+          aria-label={`Check out the ${name} website`}
+          target="_blank"
+          className={styles.imgWrapper}
+        >
           <img
             src={image}
             alt={`A homepage photo of ${name} website`}
