@@ -54,6 +54,35 @@
   box-shadow: 0 0.5rem 1rem hsla(0, 0%, 100%, 0.1);
 }
 
+.name {
+  --first: hsl(160, 60%, 45%);
+  --second: hsl(180, 50%, 55%);
+  --third: hsl(200, 40%, 50%);
+
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--first),
+    var(--second),
+    var(--third),
+    var(--first)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
 @media (max-width: 768px) {
   .mdText {
     font-size: calc(20rem / 16);
