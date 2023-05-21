@@ -16,6 +16,7 @@ import {
   visa,
   nomanit,
   wms,
+  homesafari,
   oh2k,
   calculator,
   pig_game,
@@ -178,6 +179,26 @@ export const projects = [
     ],
     image: wms,
     liveLink: 'https://www.waldenmedstaffing.com/',
+  },
+  {
+    name: 'HomeSafari',
+    description: 'An Airbnb clone website using Next.js 13.',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Prisma',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'TailwindCSS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: homesafari,
+    liveLink: 'https://homesafari.vercel.app/',
   },
   {
     name: 'OH2K Bank',

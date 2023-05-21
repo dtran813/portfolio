@@ -22,6 +22,7 @@ import nomanit from './nomanit.png';
 
 import pig_game from './project/pig_game.png';
 import wms from './project/wms.png';
+import homesafari from './project/homesafari.png';
 import oh2k from './project/oh2k.png';
 import calculator from './project/calculator.png';
 
@@ -55,6 +56,7 @@ export {
   nomanit,
   pig_game,
   wms,
+  homesafari,
   oh2k,
   calculator,
   facebook,
