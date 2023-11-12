@@ -22,7 +22,7 @@ export default function Navbar() {
       <nav className={styles.navbar}>
         <div className={styles.logoWrapper}>
           <a href="#" className={styles.logo}>
-            Duc H Tran
+            Hoa Duc Tran
           </a>
         </div>
 
