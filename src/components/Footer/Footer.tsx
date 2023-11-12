@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.wrapper}>
-        <p className={styles.footerName}>Duc H Tran</p>
+        <p className={styles.footerName}>Hoa Duc Tran</p>
         <div className={styles.media}>
           {social_media.map(media => (
             <a key={media.name} href={media.url}>
@@ -14,7 +14,7 @@ export default function Footer() {
           ))}
         </div>
         <p className={styles.footerText}>
-          All rights reserved © Duc H. Tran {new Date().getFullYear()}
+          All rights reserved © Hoa Duc Tran {new Date().getFullYear()}
         </p>
       </div>
     </footer>
