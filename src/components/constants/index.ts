@@ -27,262 +27,284 @@ import {
   twitter,
   github,
   linkedin,
-} from '../../assets';
+  afo,
+} from "../../assets";
 
 export const navLinks = [
   {
-    id: 'home',
-    title: 'Home',
+    id: "home",
+    title: "Home",
   },
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 export const technologies = [
   {
-    name: 'HTML5',
+    name: "HTML5",
     icon: html,
   },
   {
-    name: 'CSS3',
+    name: "CSS3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'MongoDB',
+    name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: 'Python',
+    name: "Python",
     icon: python,
   },
   {
-    name: 'Java',
+    name: "Java",
     icon: java,
   },
   {
-    name: 'CSharp',
+    name: "CSharp",
     icon: csharp,
   },
   {
-    name: 'Git',
+    name: "Git",
     icon: git,
   },
   {
-    name: 'Figma',
+    name: "Figma",
     icon: figma,
   },
 ];
 
 export const interests = [
   {
-    interest: 'Front-end Development',
+    interest: "Front-end Development",
     imgSrc: frontend,
   },
   {
-    interest: 'Back-end Development',
+    interest: "Back-end Development",
     imgSrc: backend,
   },
   {
-    interest: 'Novice Photographer',
+    interest: "Novice Photographer",
     imgSrc: camera,
   },
   {
-    interest: 'Bodybuilder',
+    interest: "Bodybuilder",
     imgSrc: gym,
   },
 ];
 
 export const experiences = [
   {
-    position: 'Software Test Engineer Intern',
-    companyName: 'Visa Inc.',
+    position: "Software Test Engineer Intern",
+    companyName: "Visa Inc.",
     icon: visa,
-    date: 'May 2022 - August 2022',
+    date: "May 2022 - August 2022",
     points: [
-      'Worked on the Linux servers to modify testing scripts and moderate the gateway application for the testing process.',
-      'Expanded the testing framework by implementing new unit tests for individual protocol validation using Python with its unittest library.',
+      "Worked on the Linux servers to modify testing scripts and moderate the gateway application for the testing process.",
+      "Expanded the testing framework by implementing new unit tests for individual protocol validation using Python with its unittest library.",
       "Enhanced the existing test scripts to support the application's new protocol and ensure the framework's compatibility with the servers.",
-      'Acquire comprehensive knowledge and experience in fin-tech software, testing, and related technologies.',
+      "Acquire comprehensive knowledge and experience in fin-tech software, testing, and related technologies.",
     ],
   },
   {
-    position: 'Software Engineer',
-    companyName: 'NomanIT',
+    position: "Software Engineer",
+    companyName: "NomanIT",
     icon: nomanit,
-    date: 'November 2021 - December 2022',
+    date: "November 2021 - December 2022",
     points: [
-      'Developed user interfaces with modern HTML5, CSS3, and JavaScript frameworks, Angular.',
-      'Created reusable components using Angular to revamp and expand the UI of the project.',
-      'Collaborated with other engineers using Node.js with Express.js to develop the back-end and test application procedures for system efficiency.',
-      'Handled and parsed JSON responses from the servers to render them onto the designed page based on customer requests.',
-      'Reviewed and resolved application functionality issues.',
+      "Developed user interfaces with modern HTML5, CSS3, and JavaScript frameworks, Angular.",
+      "Created reusable components using Angular to revamp and expand the UI of the project.",
+      "Collaborated with other engineers using Node.js with Express.js to develop the back-end and test application procedures for system efficiency.",
+      "Handled and parsed JSON responses from the servers to render them onto the designed page based on customer requests.",
+      "Reviewed and resolved application functionality issues.",
     ],
   },
   {
-    position: 'Software Test Engineer',
-    companyName: 'Visa Inc.',
+    position: "Software Test Engineer",
+    companyName: "Visa Inc.",
     icon: visa,
-    date: 'February 2023 - Present',
+    date: "February 2023 - Present",
     points: [
-      'Planned and devised cohesive test plans for projects using advanced testing technologies.',
-      'Wrote and optimized test cases to maximize the success of manual software testing with consistent, thorough approaches.',
-      'Practice testing methodologies, software development life cycle (SDLC), and Agile development methodologies',
-      'Collaborate with software developers and quality assurance team members to ensure effective communication and problem resolution.',
+      "Planned and devised cohesive test plans for projects using advanced testing technologies.",
+      "Wrote and optimized test cases to maximize the success of manual software testing with consistent, thorough approaches.",
+      "Practice testing methodologies, software development life cycle (SDLC), and Agile development methodologies",
+      "Collaborate with software developers and quality assurance team members to ensure effective communication and problem resolution.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: 'Walden Medical Staffing',
+    name: "Walden Medical Staffing",
     description:
-      'A real-world web application that supports the business operation of Walden Medical Staffing.',
+      "A real-world web application that supports the business operation of Walden Medical Staffing.",
     tags: [
       {
-        name: 'ASP.NET Core',
-        color: 'blue-text-gradient',
+        name: "ASP.NET Core",
+        color: "blue-text-gradient",
       },
       {
-        name: 'MySql',
-        color: 'pink-text-gradient',
+        name: "MySql",
+        color: "pink-text-gradient",
       },
       {
-        name: 'Bootstrap',
-        color: 'green-text-gradient',
+        name: "Bootstrap",
+        color: "green-text-gradient",
       },
     ],
     image: wms,
-    liveLink: 'https://www.waldenmedstaffing.com/',
+    liveLink: "https://www.waldenmedstaffing.com/",
   },
   {
-    name: 'HomeSafari',
-    description: 'An Airbnb clone website using Next.js 13.',
+    name: "HomeSafari",
+    description: "An Airbnb clone website using Next.js.",
     tags: [
       {
-        name: 'Next.js',
-        color: 'blue-text-gradient',
+        name: "Next.js",
+        color: "blue-text-gradient",
       },
       {
-        name: 'Prisma',
-        color: 'green-text-gradient',
+        name: "Prisma",
+        color: "green-text-gradient",
       },
       {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
       },
     ],
     image: homesafari,
-    liveLink: 'https://homesafari.vercel.app/',
+    liveLink: "https://homesafari.vercel.app/",
   },
   {
-    name: 'OH2K Bank',
+    name: "OH2K Bank",
     description:
-      'A landing website helps provide essential information about an imaginary bank.',
+      "A landing website helps provide essential information about an imaginary bank.",
     tags: [
       {
-        name: 'React',
-        color: 'blue-text-gradient',
+        name: "React",
+        color: "blue-text-gradient",
       },
       {
-        name: 'TailwindCSS',
-        color: 'green-text-gradient',
+        name: "TailwindCSS",
+        color: "green-text-gradient",
       },
       {
-        name: 'Vite',
-        color: 'pink-text-gradient',
+        name: "Vite",
+        color: "pink-text-gradient",
       },
     ],
     image: oh2k,
-    liveLink: 'https://oh2kbank.netlify.app/',
+    liveLink: "https://oh2kbank.netlify.app/",
   },
   {
-    name: 'CalcuNow',
-    description: 'Why Calculator when you can CalcuNow?',
+    name: "All For One",
+    description:
+      "An AI SASS that's so smart, it makes your computer look like it's still in kindergarten.",
     tags: [
       {
-        name: 'HTML',
-        color: 'pink-text-gradient',
+        name: "Next.js",
+        color: "green-text-gradient",
       },
       {
-        name: 'CSS',
-        color: 'blue-text-gradient',
+        name: "Prisma",
+        color: "pink-text-gradient",
       },
       {
-        name: 'JavaScript',
-        color: 'green-text-gradient',
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: afo,
+    liveLink: "https://afoai.vercel.app/",
+  },
+  {
+    name: "CalcuNow",
+    description: "Why Calculator when you can CalcuNow?",
+    tags: [
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
       },
     ],
     image: calculator,
-    liveLink: 'https://calcunow.netlify.app/',
+    liveLink: "https://calcunow.netlify.app/",
   },
   {
-    name: 'Pig Game',
+    name: "Pig Game",
     description:
       "Pig Game has two players, so to make it fair, let's give them two dice instead.",
     tags: [
       {
-        name: 'HTML',
-        color: 'green-text-gradient',
+        name: "HTML",
+        color: "green-text-gradient",
       },
       {
-        name: 'CSS',
-        color: 'pink-text-gradient',
+        name: "CSS",
+        color: "pink-text-gradient",
       },
       {
-        name: 'JavaScript',
-        color: 'blue-text-gradient',
+        name: "JavaScript",
+        color: "blue-text-gradient",
       },
     ],
     image: pig_game,
-    liveLink: 'https://pig2.netlify.app/',
+    liveLink: "https://pig2.netlify.app/",
   },
 ];
 
 export const social_media = [
   {
-    name: 'LinkedIn',
+    name: "LinkedIn",
     logo: linkedin,
-    url: 'https://www.linkedin.com/in/duc-tran-6a141a1b4/',
+    url: "https://www.linkedin.com/in/duc-tran-6a141a1b4/",
   },
   {
-    name: 'Twitter',
+    name: "Twitter",
     logo: twitter,
-    url: 'https://twitter.com',
+    url: "https://twitter.com",
   },
   {
-    name: 'GitHub',
+    name: "GitHub",
     logo: github,
-    url: 'https://github.com/dtran813',
+    url: "https://github.com/dtran813",
   },
   {
-    name: 'Facebook',
+    name: "Facebook",
     logo: facebook,
-    url: 'https://facebook.com',
+    url: "https://facebook.com",
   },
 ];

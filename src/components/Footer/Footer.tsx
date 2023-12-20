@@ -1,5 +1,5 @@
-import styles from './Footer.module.css';
-import { social_media } from '../constants';
+import styles from "./Footer.module.css";
+import { social_media } from "../constants";
 
 export default function Footer() {
   return (
@@ -7,8 +7,8 @@ export default function Footer() {
       <div className={styles.wrapper}>
         <p className={styles.footerName}>Hoa Duc Tran</p>
         <div className={styles.media}>
-          {social_media.map(media => (
-            <a key={media.name} href={media.url}>
+          {social_media.map((media) => (
+            <a key={media.name} href={media.url} target="_blank">
               <img src={media.logo} alt={`${media.name} Logo`} />
             </a>
           ))}
