@@ -1,11 +1,11 @@
-import styles from './Experience.module.css';
-import ExperienceCard from './ExperienceCard';
+import styles from "./Experience.module.css";
+import ExperienceCard from "./ExperienceCard";
 
-import { motion } from 'framer-motion';
-import { SectionWrapper } from '../../hoc';
-import { experiences } from '../constants';
-import { textVariant } from '../../utils/motion';
-import { VerticalTimeline } from 'react-vertical-timeline-component';
+import { motion } from "framer-motion";
+import { SectionWrapper } from "../../hoc";
+import { experiences } from "../constants";
+import { textVariant } from "../../utils/motion";
+import { VerticalTimeline } from "react-vertical-timeline-component";
 
 function ExperienceSection() {
   return (
@@ -31,6 +31,6 @@ function ExperienceSection() {
   );
 }
 
-const Experience = SectionWrapper(ExperienceSection, 'experience');
+const Experience = SectionWrapper(ExperienceSection, "experience");
 
 export default Experience;

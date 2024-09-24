@@ -121,15 +121,16 @@ export const interests = [
 
 export const experiences = [
   {
-    position: "Software Test Engineer Intern",
+    position: "Software Test Engineer",
     companyName: "Visa Inc.",
     icon: visa,
-    date: "May 2022 - August 2022",
+    date: "February 2023 - Present",
     points: [
-      "Worked on the Linux servers to modify testing scripts and moderate the gateway application for the testing process.",
-      "Expanded the testing framework by implementing new unit tests for individual protocol validation using Python with its unittest library.",
-      "Enhanced the existing test scripts to support the application's new protocol and ensure the framework's compatibility with the servers.",
-      "Acquire comprehensive knowledge and experience in fin-tech software, testing, and related technologies.",
+      "Develop automated test scripts using Python, significantly improving testing efficiency and coverage across various projects.",
+      "Develop comprehensive test plans and execute both manual and automated testing (functional,regression, performance), ensuring software reliability and high-quality releases.",
+      "Identify and track defects using Jira, providing detailed documentation to ensure timelyresolution in collaboration with developers and stakeholders.",
+      "Work closely with cross-functional teams, enabling effective communication and swift issueresolution to maintain product integrity.",
+      "Contributed to the development of the Automation Test Manager project, utilizing Angular for thefront end and Java for the back end, to streamline test automation workflows.",
     ],
   },
   {
@@ -138,23 +139,21 @@ export const experiences = [
     icon: nomanit,
     date: "November 2021 - December 2022",
     points: [
-      "Developed user interfaces with modern HTML5, CSS3, and JavaScript frameworks, Angular.",
-      "Created reusable components using Angular to revamp and expand the UI of the project.",
-      "Collaborated with other engineers using Node.js with Express.js to develop the back-end and test application procedures for system efficiency.",
-      "Handled and parsed JSON responses from the servers to render them onto the designed page based on customer requests.",
-      "Reviewed and resolved application functionality issues.",
+      "Built responsive web applications using React, improving the user experience and performance of internal tools.",
+      "Developed and maintained RESTful API endpoints using Node.js to enhance application functionality and improve data accessibility.",
+      "Collaborated in an Agile environment, participating in daily stand-ups, sprint planning, and retrospectives to deliver high-quality features on time.",
+      "Participated in code reviews, promoting coding standards and best practices in development while ensuring maintainable and efficient codebases.",
     ],
   },
   {
-    position: "Software Test Engineer",
+    position: "Software Test Engineer Intern",
     companyName: "Visa Inc.",
     icon: visa,
-    date: "February 2023 - Present",
+    date: "May 2022 - August 2022",
     points: [
-      "Planned and devised cohesive test plans for projects using advanced testing technologies.",
-      "Wrote and optimized test cases to maximize the success of manual software testing with consistent, thorough approaches.",
-      "Practice testing methodologies, software development life cycle (SDLC), and Agile development methodologies",
-      "Collaborate with software developers and quality assurance team members to ensure effective communication and problem resolution.",
+      "Enhanced testing infrastructure by developing new unit tests in Python using the unittest framework, ensuring robust protocol validation.",
+      "Improved existing testing scripts to support new application protocols, ensuring seamless integration with Linux-based server environments.",
+      "Collaborated with senior engineers to refine the gateway testing process, streamlining test case execution and validation cycles.",
     ],
   },
 ];
