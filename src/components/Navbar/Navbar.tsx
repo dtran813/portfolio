@@ -1,7 +1,7 @@
-import React from 'react';
-import { navLinks } from '../constants';
-import styles from './Navbar.module.css';
-import { menu, x } from '../../assets';
+import React from "react";
+import { navLinks } from "../constants";
+import styles from "./Navbar.module.css";
+import { menu, x } from "../../assets";
 
 export default function Navbar() {
   const [toggle, setToggle] = React.useState(false);
@@ -11,10 +11,10 @@ export default function Navbar() {
   }
 
   const mobileMenu: React.CSSProperties = {
-    pointerEvents: 'all',
-    transform: 'scale(1)',
-    right: '1.5rem',
-    top: '2rem',
+    pointerEvents: "all",
+    transform: "scale(1)",
+    right: "1.5rem",
+    top: "2rem",
   };
 
   return (
@@ -22,7 +22,7 @@ export default function Navbar() {
       <nav className={styles.navbar}>
         <div className={styles.logoWrapper}>
           <a href="#" className={styles.logo}>
-            Hoa Duc Tran
+            Hoa Tran
           </a>
         </div>
 
@@ -38,13 +38,13 @@ export default function Navbar() {
 
         <div className={styles.mobileNavWrapper}>
           <button
-            aria-label={toggle ? 'Close menu' : 'Open menu'}
+            aria-label={toggle ? "Close menu" : "Open menu"}
             className={styles.menuBtn}
             onClick={handleClick}
           >
             <img
               src={toggle ? x : menu}
-              alt={`${toggle ? 'Close' : 'Open'} menu`}
+              alt={`${toggle ? "Close" : "Open"} menu`}
             />
           </button>
 
