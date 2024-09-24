@@ -1,6 +1,6 @@
 import frontend from "./interest/frontend.jpg";
 import backend from "./interest/backend.jpg";
-import camera from "./interest/camera.jpg";
+import hiking from "./interest/hiking.jpg";
 import gym from "./interest/gym.jpg";
 
 import html from "./tech/html.png";
@@ -38,7 +38,7 @@ import x from "./x.svg";
 export {
   frontend,
   backend,
-  camera,
+  hiking,
   gym,
   html,
   css,

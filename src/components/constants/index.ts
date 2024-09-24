@@ -1,7 +1,6 @@
 import {
   frontend,
   backend,
-  camera,
   gym,
   html,
   css,
@@ -28,6 +27,7 @@ import {
   github,
   linkedin,
   afo,
+  hiking,
 } from "../../assets";
 
 export const navLinks = [
@@ -102,19 +102,19 @@ export const technologies = [
 
 export const interests = [
   {
-    interest: "Front-end Development",
-    imgSrc: frontend,
-  },
-  {
-    interest: "Back-end Development",
+    interest: "Software Development",
     imgSrc: backend,
   },
   {
-    interest: "Novice Photographer",
-    imgSrc: camera,
+    interest: "Web Development",
+    imgSrc: frontend,
   },
   {
-    interest: "Bodybuilder",
+    interest: "Hiking",
+    imgSrc: hiking,
+  },
+  {
+    interest: "Working Out",
     imgSrc: gym,
   },
 ];

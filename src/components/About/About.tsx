@@ -1,9 +1,9 @@
-import InterestCard from './InterestCard';
-import { motion } from 'framer-motion';
+import InterestCard from "./InterestCard";
+import { motion } from "framer-motion";
 
-import { SectionWrapper } from '../../hoc';
-import { fadeIn, textVariant } from '../../utils/motion';
-import { interests } from '../constants';
+import { SectionWrapper } from "../../hoc";
+import { fadeIn, textVariant } from "../../utils/motion";
+import { interests } from "../constants";
 
 function AboutSection() {
   return (
@@ -13,14 +13,14 @@ function AboutSection() {
         <h2 className="sectionHeadText">Overview.</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn('', '', 0.15, 1)} className="overview">
-        I'm a tech enthusiast with experience in Python, Java, JavaScript, and
-        frameworks like React and Node.js. I pride myself on paying attention to
-        details and having strong organizational skills, which allow me to
-        contribute effectively to any team. My passion for knowledge drives me
-        to continuously learn and grow, and I'm currently exploring photography
-        to expand my creative horizons. In addition to my professional pursuits,
-        I enjoy staying active and healthy by hitting the gym regularly.
+      <motion.p variants={fadeIn("", "", 0.15, 1)} className="overview">
+        I am a technology enthusiast with experience in Python, Java,
+        JavaScript, and frameworks such as React and Node.js. I take pride in my
+        attention to detail and strong organizational skills, which enable me to
+        contribute effectively to any team. Driven by a passion for knowledge, I
+        am committed to continuous learning, particularly in software and web
+        development skills. In my free time, I enjoy playing video games,
+        hiking, and staying active by working out regularly.
       </motion.p>
 
       <div className="cardWrapper">
@@ -32,6 +32,6 @@ function AboutSection() {
   );
 }
 
-const About = SectionWrapper(AboutSection, 'about');
+const About = SectionWrapper(AboutSection, "about");
 
 export default About;

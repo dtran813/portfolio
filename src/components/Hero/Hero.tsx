@@ -1,5 +1,5 @@
-import styles from './Hero.module.css';
-import { motion } from 'framer-motion';
+import styles from "./Hero.module.css";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   const animation = {
@@ -27,7 +27,7 @@ export default function Hero() {
           aria-label="Hoa Tran."
           aria-level={1}
         >
-          <SplitText text={'Hoa Tran.'} />
+          <SplitText text={"Hoa Tran."} />
         </h1>
       </div>
       <motion.p
@@ -35,14 +35,14 @@ export default function Hero() {
         transition={animation.transition}
         className={styles.lgText}
       >
-        I love to see all the beautiful things on the web.
+        I enjoy discovering the beauty of the web.
       </motion.p>
       <motion.p
         animate={animation.animate}
         transition={animation.transition}
         className={styles.lgText}
       >
-        And soon, you will see me build some of them.
+        Join me on this journey to make the digital world better.
       </motion.p>
 
       <a href="#contact" className={styles.btn}>
@@ -59,7 +59,7 @@ interface Props {
 function SplitText({ text }: Props) {
   return (
     <span>
-      {text.split('').map((char, index) => {
+      {text.split("").map((char, index) => {
         return (
           <motion.span
             key={index}
@@ -73,7 +73,7 @@ function SplitText({ text }: Props) {
               delay: 0.5 + index / 10,
             }}
             style={{
-              display: char === ' ' ? 'inline' : 'inline-block',
+              display: char === " " ? "inline" : "inline-block",
             }}
           >
             {char}
