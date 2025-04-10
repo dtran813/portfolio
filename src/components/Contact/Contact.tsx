@@ -71,7 +71,7 @@ function ContactSection() {
         className={styles.wrapper}
       >
         <p className="sectionSubText">-Get In Touch-</p>
-        <h2 className="sectionHeadText">Contact.</h2>
+        <h2 className="sectionHeadText">Contact</h2>
 
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>

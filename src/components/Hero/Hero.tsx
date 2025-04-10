@@ -24,10 +24,10 @@ export default function Hero() {
         <h1
           className={styles.name}
           role="heading"
-          aria-label="Hoa Tran."
+          aria-label="Hoa Tran"
           aria-level={1}
         >
-          <SplitText text={"Hoa Tran."} />
+          <SplitText text={"Hoa Tran"} />
         </h1>
       </div>
       <motion.p

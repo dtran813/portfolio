@@ -10,7 +10,7 @@ function ProjectSection() {
     <>
       <motion.div variants={textVariant()}>
         <p className="sectionSubText">-My Work-</p>
-        <h2 className="sectionHeadText">Projects.</h2>
+        <h2 className="sectionHeadText">Projects</h2>
       </motion.div>
 
       <motion.p variants={fadeIn('', '', 0.15, 1)} className="overview">

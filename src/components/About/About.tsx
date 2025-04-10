@@ -10,7 +10,7 @@ function AboutSection() {
     <>
       <motion.div variants={textVariant()}>
         <p className="sectionSubText">-Introduction-</p>
-        <h2 className="sectionHeadText">Overview.</h2>
+        <h2 className="sectionHeadText">Overview</h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.15, 1)} className="overview">

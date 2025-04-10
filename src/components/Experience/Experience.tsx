@@ -12,7 +12,7 @@ function ExperienceSection() {
     <>
       <motion.div variants={textVariant()}>
         <p className="sectionSubText">-Career Highlights-</p>
-        <h2 className="sectionHeadText">Work Experience.</h2>
+        <h2 className="sectionHeadText">Work Experience</h2>
       </motion.div>
 
       <div className={styles.timelineWrapper}>
